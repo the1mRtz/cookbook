@@ -7,10 +7,12 @@
 <title>Recipe ${recipe.id}</title>
 </head>
 <body>
- 	<h1>${recipe.titulo}</h1>
+ 	<h1>${recipe.titulo}</h1><br>
  	<b>Problema:</b>
- 	<b>${recipe.problema}</b>
+ 	<b>${recipe.problema}</b><br>
  	<b>Solucao:</b>
- 	<b>${recipe.solucao}</b>
+ 	<b>${recipe.solucao}</b><br>
+ 	<b>Autor:</b>
+ 	<b>${recipe.autor}</b><br>
 </body>
 </html>

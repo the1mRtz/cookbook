@@ -6,11 +6,13 @@ public class Recipe {
 	private String titulo;
 	private String problema;
 	private String solucao;
+	private String autor;
 	
-	public Recipe(String titulo, String problema, String solucao) {
+	public Recipe(String titulo, String problema, String solucao, String autor) {
 		this.titulo=titulo;
 		this.problema=problema;
 		this.solucao=solucao;
+		this.autor=autor;
 	}
 
 	public String getTitulo() {
@@ -23,6 +25,10 @@ public class Recipe {
 
 	public String getSolucao() {
 		return solucao;
+	}
+	
+	public String getAutor() {
+		return autor;
 	}
 
 	public String getId() {
