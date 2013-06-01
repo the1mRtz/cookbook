@@ -14,5 +14,7 @@
  	<b>${recipe.solucao}</b><br>
  	<b>Autor:</b>
  	<b>${recipe.autor}</b><br>
+ 	<b>Tags:</b>
+ 	<b>${recipe.tags}</b><br>
 </body>
 </html>
